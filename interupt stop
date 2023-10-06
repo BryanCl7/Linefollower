@@ -1,0 +1,26 @@
+const int switchPin = 2;  // Pin waarop de schakelaar is aangesloten
+volatile bool isRobotRunning = false;  // Variabele om de status van de robot bij te houden
+
+void setup() {
+  pinMode(switchPin, INPUT_PULLUP);  // Zet de schakelaar-pin als input met pull-up weerstand
+  attachInterrupt(digitalPinToInterrupt(switchPin), toggleRobot, FALLING); // Stel een interrupt in voor de schakelaar op de falling edge
+  // Andere initialisaties en setup-code hier
+}
+
+void loop() {
+  if (isRobotRunning) {
+    // Voer code uit voor de actieve robotstatus
+    // Dit is waar de robot normaal gesproken zou werken
+  }
+  // Voer andere taken uit
+}
+
+void toggleRobot() {
+  if (isRobotRunning) {
+    // Stop de robot
+    isRobotRunning = false;
+  } else {
+    // Start de robot
+    isRobotRunning = true;
+  }
+}
