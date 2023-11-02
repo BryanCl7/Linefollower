@@ -1,0 +1,20 @@
+/*
+	Blink
+  Turning a LED on and off with a delay of one second.
+  Most Arduinos have an on-board LED. On the UNO, MEGA, leonardo and ZERO
+  it is connected to pin 13. On tinkercad I used an off-board LED.I used pin 8 to control the LED
+ */  
+int led = 8;//you can change pin 8 to whichever pin you chose to control the LED
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(led, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(1, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(1, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
