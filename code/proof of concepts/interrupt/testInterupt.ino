@@ -4,7 +4,7 @@ int led = 8;
 
 void setup() {
   pinMode(interruptPin, INPUT_PULLUP);  // Zet de schakelaar-pin als input met pull-up weerstand
-  attachInterrupt(digitalPinToInterrupt(interruptPin), interrupt, RISING); // Stel een interrupt in voor de schakelaar op de rising edge
+  attachInterrupt(digitalPinToInterrupt(interruptPin), interrupt, FALLING); // Stel een interrupt in voor de schakelaar op de rising edge
   pinMode(led, OUTPUT);
 }
 
