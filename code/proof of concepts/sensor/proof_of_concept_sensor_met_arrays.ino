@@ -1,5 +1,5 @@
 const byte interruptPin = 2;  // Pin waarop de schakelaar is aangeslotenvolatile bool isRobotRunning = trye;  // Variabele om de status van de robot bij te houden
-volatile byte isRobotRunning = LOW;
+volatile byte isRobotRunning = HIGH;
 int pin1 = A0;
 int pin2 = A1;
 int pin3 = A2;
