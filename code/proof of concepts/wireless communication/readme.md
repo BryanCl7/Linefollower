@@ -5,6 +5,7 @@ Daar in vind je ook extra gegevens of via deze link daar vind je bijna al de inf
 https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/bluetooth/modules/bluetooth-hc-05-module-rf-transceiver-master-en-slave
 
 ### configuratie
+![image](https://github.com/BryanCl7/Linefollower/assets/146442945/1831521b-0c5d-41df-814f-3dc2e15e2c70)
 
 ### opmerkingen
 
