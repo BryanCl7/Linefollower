@@ -5,7 +5,9 @@ Daar in vind je ook extra gegevens of via deze link daar vind je bijna al de inf
 https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/bluetooth/modules/bluetooth-hc-05-module-rf-transceiver-master-en-slave
 
 ### configuratie
-![image](https://github.com/BryanCl7/Linefollower/assets/146442945/1831521b-0c5d-41df-814f-3dc2e15e2c70)
+![image](https://github.com/BryanCl7/Linefollower/assets/146442945/280f1c74-c553-4361-bcc9-a1890a142ea6)
+
+Ik heb het aansluiten wel anders gedaan ik heb de RX en TX pinnen niet aan de TX en RX van mijn arduino gehangen maar aan pinnen 8 en 9 omdat dit ik dit makelijker vond ik heb die pinnen in het programma dan ook zo gedefinieert.
 
 ### opmerkingen
 
