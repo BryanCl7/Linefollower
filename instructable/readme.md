@@ -1,30 +1,29 @@
 # Instructable
 
-Een instructable is een stappenplan - zonder verdere uitleg - hoe je vertrekkend van de bill of materials en gebruik makend van de technische tekeningen de robot kan nabouwen. Ook de nodige stappen om de microcontroller te compileren en te uploaden staan beschreven.  
+Hier wordt uitgelegd hoe we een rijdende robot maken. Dit zonder aansluit bord waarop we alles solderen. Dit zodanig dat we zeker weten hoe alles moet zitten voor we daar aan beginnen. Dus nu eerst met draatjes en een plankje om alles op te zetten. 
 
 ### stap 1
-bestel alle componenten uit de bill of materials  
-Vooraleer we aan ons plan A beginnen, testen we eerst ons programma en de wagen zonder een printplaat te bestellen. In deze instructable wordt stap voor stap beschreven hoe we alle componenten samenstellen, met een werkende wagen als resultaat.
+bestel alle componenten uit de bill of materials 
+| Component                                   | Model / Beschrijving                                | Prijs per stuk (€) | Aantal | Totaal (€) | Link                                                                  |
+|---------------------------------------------|-----------------------------------------------------|--------------------|--------|------------|-----------------------------------------------------------------------|
+| Microcontroller                             | ATmega32u4 (Arduino Leonardo)                       | 19,90              | 1      | 19,90      | [Link](https://whadda.com/nl/product/atmega32u4-leonardo-ontwikkelbord-wpb103/) |
+| Mini Micro Metal Gear Motor 30:1            | 6V DC Gear Motor                                    | 5,00               | 2      | 10,00      | [Link](https://www.tinytronics.nl/shop/nl/mechanica-en-actuatoren/motoren/dc-motoren/aslong-jga12-n20-30-dc-transmissiemotor-6v-500rpm?fbclid=IwAR1u-LMwuQJD3mgTCO4AoHne9U6hnG0Yz1KG7pJNeg7NzDx2Ay1op920XMw) |
+| H-brug                                      | DRV8833 Dual Motor Driver Carrier                   | 16,95              | 1      | 16,95      | [Link](https://www.vanallesenmeer.nl/DRV8833-Dual-Motor-Driver-Carrier-Pololu-2130?gclid=CjwKCAiAmsurBhBvEiwA6e-WPIBsegGwittozvcB6m5SHe9FdQcsteXlm8Xj9m_TJA7viCOSE4UreBoCJNoQAvD_BwE) |
+| Infrared Reflection Sensors (8)             | QTR-8A Reflectance Sensor Array                     | 12,35              | 1      | 12,35      | [Link](https://www.vanallesenmeer.nl/QTR-8A-Reflectance-Sensor-Array-Pololu-960?gclid=CjwKCAiAmsurBhBvEiwA6e-WPESfFBC4gVZjiqnQ7vXWKjuIifyLNFbzevlTixKUkVR3WOfzj-IHWRoCD3MQAvD_BwE) |
+| NIKKO NI-MH BATTERY PACK 9,6V met lader     | Rechargeable Battery (9,6V - 700mAh)                | recup              | 1      | recup      | -                                                                     |
+| Bluetooth Module                            | HC-05                                               | 2,85               | 1      | 2,85       | [Link](https://nl.aliexpress.com/item/4000144439510.html?spm=a2g0o.productlist.main.1.5908139aQrhCsF&algo_pvid=4a5e5c42-d58a-45c1-9943-0cdae3c689d2&aem_p4p_detail=202312080752489106633218387090000295994&algo_exp_id=4a5e5c42-d58a-45c1-9943-0cdae3c689d2-0&pdp_npi=4%40dis%21EUR%213.00%212.85%21%21%213.16%21%21%40211b61ae17020507685531021ea840%2110000000438661080%21sea%21BE%210%21AB&curPageLogUid=Kh6Jn8DooFva&search_p4p_id=202312080752489106633218387090000295994_1) |
+| Wielhouders                                | Micro Metal Gearmotor Bracket Pair                  | 4,95               | 1      | 4,95       | [Link](https://www.vanallesenmeer.nl/Micro-Metal-Gearmotor-Bracket-Pair-Black-Pololu-989?gclid=CjwKCAiAmsurBhBvEiwA6e-WPEul2iJFUSlVWHRO00z9ERrG0mlW9z6Wc7ezb0qhI3MgBeyGJD4lbBoCubcQAvD_BwE) |
+| Wielen                                      | Pololu wheel 40x7mm Pair - Black                   | 7,25               | 1      | 7,25       | [Link](https://www.vanallesenmeer.nl/Wheel-40%C3%977mm-Pair-Pololu-1452/1453/1454?gclid=CjwKCAiAmsurBhBvEiwA6e-WPHzX60cO5VPQjRjlZcRoMAjekH47FnYHQb5lCrlD1Lyvtn_koZdvshoCbxMQAvD_BwE) |
+| Dupont-draadjes                             | 10xman-vrouw en 20xman-man                         | recup                | 30     | recup     | -                  
+| Breadboard                           |      MB-102 830/400 Punten Breadboard Prototype Board                    | 1,98                 | 1    | 1,98         |[Link](https://www.temu.com/ul/kuiper/un9.html?subj=goods-un&_bg_fs=1&_p_jump_id=894&_x_vst_scene=adg&goods_id=601099513243036&sku_id=17592195253973&adg_ctx=a-92d118b0~c-d14cc8e7~f-3e962b46&_x_ads_sub_channel=shopping&_p_rfs=1&_x_ns_prz_type=6&_x_ns_sku_id=17592195253973&mrk_rec=1&_x_ads_channel=google&_x_gmc_account=760631223&_x_login_type=Google&_x_ads_account=9370551288&_x_ads_set=20802353017&_x_ads_id=158931479434&_x_ads_creative_id=681990428390&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT-pLHxwASqVzTrfLJ0jhk9U8RIukH6yW9x1GZfM6WGTXPh9PrrVubAaAv0KEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=760631223-en-17592195253973&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA7OqrBhCFARIoACZa0OL22gWJ3hMkZZ1mKbGWUQOMSGpdDMEoTtUXnqaO0eZhieR-ZxoCjgw&_x_ns_gbraid=0AAAAAo4mICE-zCsBcAoemzdRXFu2lWIaU&_x_ns_targetid=pla-2231984345651&gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT-pLHxwASqVzTrfLJ0jhk9U8RIukH6yW9x1GZfM6WGTXPh9PrrVubAaAv0KEALw_wcB)
+| chassis                           | plankje als shasie en batterij houder                        | recup           | 30cm²    |recup        | -                  |
+|
 
-stap 1
-Bestel alle componenten uit de bill of materials:
 
-volgnummer	naam	omschrijving	nieuw/recup	kostprijs/stuk	aantal	subtotaal
-1	Microcontroller	ATmega32u4 (Arduino Leonardo)	Recup	€12,99	1	€12,99
-2	Mini Micro Metal Gear Motor 30:1	6V DC Gear Motor	Nieuw	€3,56	2	€7,12
-3	H-brug	DRV8833 Dual Motor Driver Carrier	Nieuw	€12,52	1	€12,52
-4	Infrared Reflection Sensors (8)	QTR-8A Reflectance Sensor Array	Nieuw	€16,13	1	€16,13
-5	18650 Li-ion Batterijen	Rechargeable Battery (3,7V - 19800mAh)	Nieuw	€2,63	2	€5,26
-6	Batterijhouder	18650 Dubbele batterijhouder	Nieuw	€2,39	1	€2,39
-7	Batterijoplader	LiitoKala Lii-L2 3,7V 18650	Nieuw	€10,17	1	€10,17
-8	Bluetooth Module	HC-05	Recup	€11,96	1	€11,96
-9	Wielhouders	Micro Metal Gearmotor Bracket Pair	Nieuw	€5,39	1	€5,39
-10	Wielen	Polulu wheel 40x7mm Pair - Red	Nieuw	€7,69	1	€7,69
-11	Dupont-draadjes	20xman-vrouw en 5xman-man	Recup	/	25	/
-Verder zijn er nog een aantal andere benodigdheden, zoals houten blokjes, een houten plank en extra wielen, maar deze zijn optioneel en kunnen perfect vervangen worden door andere recup-materialen.
+
 
 stap 2
-Nu we al het materiaal beschikbaar hebben, stellen we de linefollower samen. Als frame van de auto ga je best opzoek naar een houten plankje, of ander recupmateriaal die ongeveer een afmeting hebben van 160x100mm. Er kan voor gekozen worden om met een figuurzaag extra vorm te geven, zodat dit het frame van een gestroomlijnde wagen kan voorstellen. Dit kan uiteraard ook achteraf gebeuren. 403679670_808460354413685_5912383544201351500_n Vervolgens monteren we de batterijhouder op ons houten frame. Deze zetten we op de achterkant van onze plank, mooi in het midden. Ernaast worden 2 blokjes (500x250x10mm) geplakt, zodat we later de arduino boven de batterijhouder kunnen plaatsen. Het vastplakken van de houtblokjes en batterijhouder kan gebeuren met behulp van houtlijm. 405333687_223592240758807_7123575042251916946_n
+Nu we al het materiaal beschikbaar hebben, stellen we de linefollower samen. Als frame van de auto ga je best opzoek naar een houten plankje, of ander recupmateriaal. Ik heb zelf hiervoor een trespa plaatje gekozen omdat dit materiaal tegen hoge warmtes kan zonder te vervormen of in brand te schieten. Wat ik voral handig vond om mijn baterij houder uit te maken want als je daar dan moet op solderen vliegd dit niet zomaar in brand zoals andere mateialen zoals houd wel zouden durven doen. De afmetingen van dit plaatje moeten ongeveer een 180x100mm zijn . Er kan voor gekozen worden om met een figuurzaag extra vorm te geven, zodat dit het frame van een gestroomlijnde wagen kan voorstellen. Dit kan uiteraard ook achteraf gebeuren. Vervolgens monteren we de batterijhouder op ons frame. Deze zetten we op de achterkant van onze plank, mooi in het midden. Ernaast worden 2 blokjes (500x250x10mm) geplakt, zodat we later de arduino boven de batterijhouder kunnen plaatsen. Het vastplakken van de houtblokjes en batterijhouder kan gebeuren met behulp van houtlijm. 405333687_223592240758807_7123575042251916946_n
 
 stap 3
 In deze stap gaan we de motoren monteren op het frame. Hiervoor gebruiken we de "wielhouders" die samen met de motoren werden aangekocht. Bij het monteren van deze houders is het belangrijk dat ze allebei op de zelfde afstand worden gemonteerd, zodat ze mooi in lijn liggen met elkaar en de auto dus niet scheef zal gaan rijden. Via de volgende 2 foto's kan worden afgeleid waar ik deze ongeveer heb gemonteerd:
