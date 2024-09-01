@@ -28,34 +28,25 @@ Nu we al het materiaal beschikbaar hebben, stellen we de linefollower samen. Als
 
 
 stap 3
-In deze stap gaan we de motoren monteren op het frame. Hiervoor gebruiken we de "wielhouders" die samen met de motoren werden aangekocht. Bij het monteren van deze houders is het belangrijk dat ze allebei op de zelfde afstand worden gemonteerd, zodat ze mooi in lijn liggen met elkaar en de auto dus niet scheef zal gaan rijden. Via de volgende 2 foto's kan worden afgeleid waar ik deze ongeveer heb gemonteerd:
+In deze stap gaan we de motoren monteren op het frame. Hiervoor gebruiken we de "wielhouders" die samen met de motoren werden aangekocht. als je deze niet kocht en zou willen lijmen dit kan maar tip: gebruik geen hot glue om de motoren vast te zetten deze kunnen warm worden en de lijm smelten en zo los komen. Bij het monteren van deze houders is het belangrijk dat ze allebei op de zelfde afstand worden gemonteerd, zodat ze mooi in lijn liggen met elkaar en de auto dus niet scheef zal gaan rijden. Via de volgende foto kan worden afgeleid waar ik deze ongeveer heb gemonteerd:
+![image](https://github.com/user-attachments/assets/31bb1819-3ebe-4371-b3df-089644246822)
 
-405266047_1487613928690795_4685521728919634876_n 404350260_309790145228844_7951685887738030043_n
-
-Vervolgens werden gaatjes geboord, zodat de bijgeleverde boutjes gemakkelijk in het hout konden worden gedraaid.
+Vervolgens werden gaatjes geboord, zodat met de bijgeleverde boutjes en moeren de motoren kunnen vast gezet worden.
 
 405154670_3388969721320824_5026883236161777480_n 405283208_1006741277289677_2358455657544103621_n
 
 Als laatste solderen we 2 dupontdraadjes aan de motoren, alvorens we deze vaststeken in de gemonteerde klemmen. Dit zodat we alle ruimte hebben om dit te kunnen doen.
 
-403688872_365273492548581_5732422698806328131_n
-
 stap 4
-Om de andere componenten, zoals de H-Brug en de bluetooth module te monteren gebruiken we simpelweg een elastiekje zodat alles mooi blijft zitten.
-
-405139945_312554088254143_3331511207421659937_n
-
+Om de andere componenten, zoals de H-Brug en de bluetooth module te monteren gebruiken we simpelweg een breadbord dat met dubelzijdige plakband vast plakken aan het plaatje zodat alles mooi blijft zitten.
 Vervolgens nemen we het elektronisch schema erbij en gaan we alles aansluiten aan de hand van dupont-draadjes. In het schema is te zien dat er 3 knooppunten zijn. 2 bij de batterijspanning en 1 bij de 5V spanning. Hiervoor gaan we gebruik maken van 3 kroonklemmen:
 
-403625895_3664321383829692_851847983461746198_n
+![Electronies_schema](https://github.com/user-attachments/assets/c9b8c08b-8b46-4d4e-b397-0fc990bf0abe)
 
-Ook de sensor moet nog worden gemonteerd aan de onderzijde van de wagen. Hiervoor werden als eerst de twee sensoren die afzonderlijk kunnen werken van het breakout board gebroken. Zo hebben we nog steeds 6 sensoren, wat alles wat compacter maakt. image
+Ook de sensor moet nog worden gemonteerd aan de onderzijde van de wagen. Hiervoor werden als eerst de twee sensoren die afzonderlijk kunnen werken van het breakout board gebroken. Zo hebben we nog steeds 6 sensoren, wat alles wat compacter maakt. Ik heb deze er niet afgebroken voor moest ik deze voor een ander project nog gebruiken.
 
 Hierna meten we af waar de draadjes via de onderkant van ons frame naarboven zullen komen, als de sensor mooi in het midden gemonteerd zit. Op deze plek worden verschillende gaatjes geboord, waar we uiteindelijk een mooie gleuf van maken:
 
-403804083_266288663098954_5267448171383346415_n
-
-405217240_2342251582633342_3867722100881489745_n
 
 Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen.
 
