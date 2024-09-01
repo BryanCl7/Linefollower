@@ -45,29 +45,23 @@ Vervolgens nemen we het elektronisch schema erbij en gaan we alles aansluiten aa
 
 Ook de sensor moet nog worden gemonteerd aan de onderzijde van de wagen. Hiervoor werden als eerst de twee sensoren die afzonderlijk kunnen werken van het breakout board gebroken. Zo hebben we nog steeds 6 sensoren, wat alles wat compacter maakt. Ik heb deze er niet afgebroken voor moest ik deze voor een ander project nog gebruiken.
 
-Hierna meten we af waar de draadjes via de onderkant van ons frame naarboven zullen komen, als de sensor mooi in het midden gemonteerd zit. Op deze plek worden verschillende gaatjes geboord, waar we uiteindelijk een mooie gleuf van maken:
-
-
-Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen.
-
-403641477_1091571545612815_5156694672164627113_n
+Hierna meten we af waar de draadjes via de onderkant van ons frame naarboven zullen komen, als de sensor mooi in het midden gemonteerd zit. Op deze plek worden verschillende gaatjes geboord, waar we uiteindelijk een mooie gleuf van maken zoals je hier aan de onderkand ziet:
+![image](https://github.com/user-attachments/assets/a04d5dd4-97c3-4ddc-9780-bf41c34cd589)
+Je kan ook zien dat ik deze verplaatst heb. Dit omdat ik merkte dat het autotje beter werkt als je de sensor rond de 7 cm van de wielen plaatst.
+Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen. Dit was eerst zo later heb ik hem gewoon vast gelijmd. omdat ik met de boutjes niet laag genog kon en de sensor hangd best maar een 4 mm van de grond.
 
 stap 5
-In de voorlaatste stap zetten we de arduino op de twee houten blokjes, die we opnieuw vastmaken met een simpel elastiekje. Vervolgens verbinden we alle componenten, zoals in het elektronisch schema wordt weergegeven:
+In de voorlaatste stap zetten we de arduino vast. Ik zette deze vast met 4 M3 boudjes en boorde hier voor terug gaatjes in het plaatje je kan deze ook vast lijmen maar dat is niet altijd handig als je deze nog voor andere dingen zou willen gebruiken. Een andere optie is met een simpel elastiekje. Vervolgens verbinden we alle componenten, zoals in het elektronisch schema wordt weergegeven:
 
-image
+![Electronies_schema](https://github.com/user-attachments/assets/a6579234-7d8a-42c0-81ff-b0b98052ca90)
 
 (In dit schema worden nog 2 weerstanden gebruikt om de spanning voor de bluetooth module te beperken. Na wat onderzoek op het internet bleek dit niet nodig te zijn, dus mag deze rechtsreeks verbonden worden met de pin op de arduino.)
 
-405132827_636497835104419_2663353506568405863_n
-
-De 3 kroonklemmen kunnen opnieuw met houtlijm worden vastgeplakt op de voorzijde van het frame. Als extra optie kunnen ook twee extra wielen worden gemonteerd aan de voorzijde. Je kan er ook voor kiezen om de auto te laten slepen.
-
-403647766_1569203267187191_374478284157019129_n
+Als extra optie kunnen ook twee extra wielen worden gemonteerd aan de voorzijde of 1 wieltje of je kan er ook voor kiezen om de auto te laten slepen. Ik liet deze slepen op een bol moer dit werkte priema.
 
 Indien de voorgaande stappen correct werden gevolgd, zou het eindresultaat er ongeveer zo moeten uitzien:
 
-400920108_895944135587999_7262908235151916565_n
+![image](https://github.com/user-attachments/assets/686c726c-284c-41fb-9a18-da7c936847a9)
 
 stap 6
-Nu moeten we enkel nog het juiste programma gaan uploaden in de arduino. De code die moeten worden upgeload kan worden teruggevonden als bestand in deze repository. Als je dit bestand opent met de arduino IDE software kan linksboven op de upload knop worden gedrukt. Nadat het uploaden is geslaagd kunnen de batterijen in de auto worden gestopt, kan verbinding via bluetooth worden gemaakt met de telefoon, en zal de auto werken! (Voor meer info over de bediening van de auto via bluetooth, zie https://github.com/jorenverdegem/Linefollower/tree/main/gebruiksaanwijzing .
+Vervolgens moet het juiste programma in de Arduino worden geüpload. De benodigde code is beschikbaar als bestand in deze repository. Open dit bestand in de Arduino IDE-software en druk op de uploadknop linksboven. Zodra het uploaden is voltooid, kunnen de batterijen in de auto worden geplaatst en kan er verbinding worden gemaakt met de telefoon via Bluetooth. De auto is dan gereed voor gebruik. Voor meer informatie over de bediening van de auto via Bluetooth, zie de aanvullende documentatie onder code vervolgens proof of concept en tenslotte wireles communication.
