@@ -1,6 +1,6 @@
 # Instructable
 
-Hier wordt uitgelegd hoe we een rijdende robot maken. Dit zonder aansluit bord waarop we alles solderen. Dit zodanig dat we zeker weten hoe alles moet zitten voor we daar aan beginnen. Dus nu eerst met draatjes en een plankje om alles op te zetten. 
+In deze sectie wordt de aanpak beschreven voor het bouwen van een rijdende robot. De focus ligt eerst op het correct positioneren en testen van alle componenten voordat definitieve verbindingen worden gemaakt. Dit wordt gerealiseerd door de onderdelen tijdelijk te verbinden met bedrading en deze op een plaatje te plaatsen voor een overzichtelijke opstelling.
 
 ### stap 1
 bestel alle componenten uit de bill of materials 
