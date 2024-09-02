@@ -17,7 +17,7 @@ bestel alle componenten uit de bill of materials
 | Dupont-draadjes                             | 10xman-vrouw en 20xman-man                         | recup                | 30     | recup     | -                  
 | Breadboard                           |      MB-102 830/400 Punten Breadboard Prototype Board                    | 1,98                 | 1    | 1,98         |[Link](https://www.temu.com/ul/kuiper/un9.html?subj=goods-un&_bg_fs=1&_p_jump_id=894&_x_vst_scene=adg&goods_id=601099513243036&sku_id=17592195253973&adg_ctx=a-92d118b0~c-d14cc8e7~f-3e962b46&_x_ads_sub_channel=shopping&_p_rfs=1&_x_ns_prz_type=6&_x_ns_sku_id=17592195253973&mrk_rec=1&_x_ads_channel=google&_x_gmc_account=760631223&_x_login_type=Google&_x_ads_account=9370551288&_x_ads_set=20802353017&_x_ads_id=158931479434&_x_ads_creative_id=681990428390&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT-pLHxwASqVzTrfLJ0jhk9U8RIukH6yW9x1GZfM6WGTXPh9PrrVubAaAv0KEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=760631223-en-17592195253973&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA7OqrBhCFARIoACZa0OL22gWJ3hMkZZ1mKbGWUQOMSGpdDMEoTtUXnqaO0eZhieR-ZxoCjgw&_x_ns_gbraid=0AAAAAo4mICE-zCsBcAoemzdRXFu2lWIaU&_x_ns_targetid=pla-2231984345651&gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT-pLHxwASqVzTrfLJ0jhk9U8RIukH6yW9x1GZfM6WGTXPh9PrrVubAaAv0KEALw_wcB)
 | chassis                           | plankje als shasie en batterij houder                        | recup           | 30cm²    |recup        | -                  |
-|
+
 
 
 ### stap 2
