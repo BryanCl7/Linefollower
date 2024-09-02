@@ -20,24 +20,23 @@ bestel alle componenten uit de bill of materials
 |
 
 
-stap 2
+### stap 2
+
 Nu we al het materiaal beschikbaar hebben, stellen we de linefollower samen. Als frame van de auto ga je best opzoek naar een plaatje. Ik heb zelf hiervoor een trespa plaatje gekozen omdat dit materiaal tegen hoge warmtes kan zonder te vervormen of in brand te schieten. Wat ik voral handig vond om mijn baterij houder uit te maken want als je daar dan moet op solderen vliegd dit niet zomaar in brand zoals andere mateialen zoals houd wel zouden durven doen. De afmetingen van dit plaatje moeten ongeveer een 180x100mm zijn . Er kan voor gekozen worden om met een figuurzaag extra vorm te geven, zodat dit het frame van een gestroomlijnde wagen kan voorstellen. Dit kan uiteraard ook achteraf gebeuren. Ik koos de vorm van een formule 1 wagen, als je dit doet let er wel op dat de sencor niet veel verder dan 8cm van het center staat van de wielen. Dit was bij mij eerste veel meer waardoor hij niet goed door de bochten ging. Vervolgens monteren we de batterijhouder op ons frame. Deze zetten we op de achterkant van ons plaatje, mooi in het midden. Best ben je hier boven het center van de wielen maar lichtjes naar de voorkant tegen wilies en veel grip te hebben met de wieletjes. Mijn baterij houder is zeer breed waardoor ik 2 blokjes er onder gelijmd heb om boven de wielen uit te komen. Het vastplakken van de blokje en batterijhouder kan gebeuren met behulp van houtlijm of andere lijmen. 
 ![batterij3](https://github.com/user-attachments/assets/4df73e59-ac5f-4cd1-9104-1f5d124fcf91)
 ![Batterij2](https://github.com/user-attachments/assets/2f1e53a9-4474-4112-8a21-c4e9d2dc1aef)
 ![baterij-autotje](https://github.com/user-attachments/assets/d9f54c9f-fa0c-42cc-9f81-b5f2cc9da2ab)
 
 
-stap 3
+### stap 3
 In deze stap gaan we de motoren monteren op het frame. Hiervoor gebruiken we de "wielhouders" die samen met de motoren werden aangekocht. als je deze niet kocht en zou willen lijmen dit kan maar tip: gebruik geen hot glue om de motoren vast te zetten deze kunnen warm worden en de lijm smelten en zo los komen. Bij het monteren van deze houders is het belangrijk dat ze allebei op de zelfde afstand worden gemonteerd, zodat ze mooi in lijn liggen met elkaar en de auto dus niet scheef zal gaan rijden. Via de volgende foto kan worden afgeleid waar ik deze ongeveer heb gemonteerd:
 ![image](https://github.com/user-attachments/assets/31bb1819-3ebe-4371-b3df-089644246822)
 
 Vervolgens werden gaatjes geboord, zodat met de bijgeleverde boutjes en moeren de motoren kunnen vast gezet worden.
 
-405154670_3388969721320824_5026883236161777480_n 405283208_1006741277289677_2358455657544103621_n
-
 Als laatste solderen we 2 dupontdraadjes aan de motoren, alvorens we deze vaststeken in de gemonteerde klemmen. Dit zodat we alle ruimte hebben om dit te kunnen doen.
 
-stap 4
+### stap 4
 Om de andere componenten, zoals de H-Brug en de bluetooth module te monteren gebruiken we simpelweg een breadbord dat met dubelzijdige plakband vast plakken aan het plaatje zodat alles mooi blijft zitten.
 Vervolgens nemen we het elektronisch schema erbij en gaan we alles aansluiten aan de hand van dupont-draadjes. In het schema is te zien dat er 3 knooppunten zijn. 2 bij de batterijspanning en 1 bij de 5V spanning. Hiervoor gaan we gebruik maken van 3 kroonklemmen:
 
@@ -50,7 +49,7 @@ Hierna meten we af waar de draadjes via de onderkant van ons frame naarboven zul
 Je kan ook zien dat ik deze verplaatst heb. Dit omdat ik merkte dat het autotje beter werkt als je de sensor rond de 7 cm van de wielen plaatst.
 Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen. Dit was eerst zo later heb ik hem gewoon vast gelijmd. omdat ik met de boutjes niet laag genog kon en de sensor hangd best maar een 4 mm van de grond.
 
-stap 5
+### stap 5
 In de voorlaatste stap zetten we de arduino vast. Ik zette deze vast met 4 M3 boudjes en boorde hier voor terug gaatjes in het plaatje je kan deze ook vast lijmen maar dat is niet altijd handig als je deze nog voor andere dingen zou willen gebruiken. Een andere optie is met een simpel elastiekje. Vervolgens verbinden we alle componenten, zoals in het elektronisch schema wordt weergegeven:
 
 ![Electronies_schema](https://github.com/user-attachments/assets/a6579234-7d8a-42c0-81ff-b0b98052ca90)
@@ -63,5 +62,5 @@ Indien de voorgaande stappen correct werden gevolgd, zou het eindresultaat er on
 
 ![image](https://github.com/user-attachments/assets/686c726c-284c-41fb-9a18-da7c936847a9)
 
-stap 6
+### stap 6
 Vervolgens moet het juiste programma in de Arduino worden geüpload. De benodigde code is beschikbaar als bestand in deze repository. Open dit bestand in de Arduino IDE-software en druk op de uploadknop linksboven. Zodra het uploaden is voltooid, kunnen de batterijen in de auto worden geplaatst en kan er verbinding worden gemaakt met de telefoon via Bluetooth. De auto is dan gereed voor gebruik. Voor meer informatie over de bediening van de auto via Bluetooth, zie de aanvullende documentatie onder code vervolgens proof of concept en tenslotte wireles communication.
