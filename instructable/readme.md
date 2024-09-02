@@ -38,7 +38,7 @@ Als laatste solderen we 2 dupontdraadjes aan de motoren, alvorens we deze vastst
 
 ### stap 4
 Om de andere componenten, zoals de H-Brug en de bluetooth module te monteren gebruiken we simpelweg een breadbord dat met dubelzijdige plakband vast plakken aan het plaatje zodat alles mooi blijft zitten.
-Vervolgens nemen we het elektronisch schema erbij en gaan we alles aansluiten aan de hand van dupont-draadjes. In het schema is te zien dat er 3 knooppunten zijn. 2 bij de batterijspanning en 1 bij de 5V spanning. Hiervoor gaan we gebruik maken van 3 kroonklemmen:
+Vervolgens nemen we het elektronisch schema erbij en gaan we alles aansluiten aan de hand van dupont-draadjes in het bread board. Ik heb zelf nog een knop toe gevoegd deze is mee geprogrameerd in het finale programma. Deze is om de auto makelijk in run te zetten of af te zetten zonder comando's te moeten sturen. Deze staat niet in getekend op het schema maar moet je gewoon verbinden met pin 2 op de arduino en de GND op het breadboard panneel of op de arduino. Zorg er voor deat al de componenten via GND verbonden zijn voor een goede werking.
 
 ![Electronies_schema](https://github.com/user-attachments/assets/c9b8c08b-8b46-4d4e-b397-0fc990bf0abe)
 
@@ -46,8 +46,8 @@ Ook de sensor moet nog worden gemonteerd aan de onderzijde van de wagen. Hiervoo
 
 Hierna meten we af waar de draadjes via de onderkant van ons frame naarboven zullen komen, als de sensor mooi in het midden gemonteerd zit. Op deze plek worden verschillende gaatjes geboord, waar we uiteindelijk een mooie gleuf van maken zoals je hier aan de onderkand ziet:
 ![image](https://github.com/user-attachments/assets/a04d5dd4-97c3-4ddc-9780-bf41c34cd589)
-Je kan ook zien dat ik deze verplaatst heb. Dit omdat ik merkte dat het autotje beter werkt als je de sensor rond de 7 cm van de wielen plaatst.
-Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen. Dit was eerst zo later heb ik hem gewoon vast gelijmd. omdat ik met de boutjes niet laag genog kon en de sensor hangd best maar een 4 mm van de grond.
+Je kan ook zien dat ik deze verplaatst heb. Dit omdat ik merkte dat het autotje beter werkt als je de sensor rond de 7 cm van het center van de wielen plaatst. dit was bij mij eerst rond de 14 cm.
+Als laatste word de sensor nog eens extra vastgezet door 2 kleine boutjes in het frame te vijzen. Dit was eerst zo later heb ik hem gewoon vast gelijmd. omdat ik met de boutjes niet laag genog kon en de sensor hangd best maar een 4 mm van de grond. deze kan je best vast bouten met M2 boutjes of M3 maar dan moet je de gaatjes een beetje vergroten met een boor wat gevaarlijk is voor de component.
 
 ### stap 5
 In de voorlaatste stap zetten we de arduino vast. Ik zette deze vast met 4 M3 boudjes en boorde hier voor terug gaatjes in het plaatje je kan deze ook vast lijmen maar dat is niet altijd handig als je deze nog voor andere dingen zou willen gebruiken. Een andere optie is met een simpel elastiekje. Vervolgens verbinden we alle componenten, zoals in het elektronisch schema wordt weergegeven:
@@ -56,11 +56,12 @@ In de voorlaatste stap zetten we de arduino vast. Ik zette deze vast met 4 M3 bo
 
 (In dit schema worden nog 2 weerstanden gebruikt om de spanning voor de bluetooth module te beperken. Na wat onderzoek op het internet bleek dit niet nodig te zijn, dus mag deze rechtsreeks verbonden worden met de pin op de arduino.)
 
-Als extra optie kunnen ook twee extra wielen worden gemonteerd aan de voorzijde of 1 wieltje of je kan er ook voor kiezen om de auto te laten slepen. Ik liet deze slepen op een bol moer dit werkte priema.
+Als extra optie kunnen ook twee extra wielen worden gemonteerd aan de voorzijde of 1 wieltje of je kan er ook voor kiezen om de auto te laten slepen. Ik liet deze slepen op een bol moer dit werkte priema. Dit zorgd wel voor strepen op het parcour maar heel erg is dit natuurlijk niet zo lang je geen scherpe hoek laat slepen die het parcour zou kunnen scheuren.
+![image](https://github.com/user-attachments/assets/dd95322c-a49c-477a-b339-2946dcc9a857)
 
 Indien de voorgaande stappen correct werden gevolgd, zou het eindresultaat er ongeveer zo moeten uitzien:
 
 ![image](https://github.com/user-attachments/assets/686c726c-284c-41fb-9a18-da7c936847a9)
 
 ### stap 6
-Vervolgens moet het juiste programma in de Arduino worden geüpload. De benodigde code is beschikbaar als bestand in deze repository. Open dit bestand in de Arduino IDE-software en druk op de uploadknop linksboven. Zodra het uploaden is voltooid, kunnen de batterijen in de auto worden geplaatst en kan er verbinding worden gemaakt met de telefoon via Bluetooth. De auto is dan gereed voor gebruik. Voor meer informatie over de bediening van de auto via Bluetooth, zie de aanvullende documentatie onder code vervolgens proof of concept en tenslotte wireles communication.
+Vervolgens moet het juiste programma in de Arduino worden geüpload. De benodigde code is beschikbaar als bestand in deze repository. Open dit bestand in de Arduino IDE-software en druk op de uploadknop linksboven. Zodra het uploaden is voltooid, kunnen de batterijen in de auto worden geplaatst en kan er verbinding worden gemaakt met de telefoon via Bluetooth. De auto is dan gereed voor gebruik. Voor meer informatie over de bediening van de auto via Bluetooth, zie de aanvullende documentatie onder gebruiksaanwijzingen.
